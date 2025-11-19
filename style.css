@@ -84,9 +84,8 @@ body {
     background-color: var(--color-neutral-White);
 }
 .page__head {
-    border: 1px solid #fff;
     text-align: center;
-    margin: 3rem auto;
+    margin: 3rem 0;
 }
 .page__firstpara {
     font-size: 1.8rem;
@@ -105,9 +104,29 @@ body {
     margin: 0 auto 2rem;
     margin-block: 3rem;
     border-radius: 5px;
-    /* box-shadow: 6px 3px 6px 5px; */
-    box-shadow: 5px 3px 1px 1px hsl(0, 0%, 100%), 5px -5px 1px 1px red;
 }
 .flex__items img {
     float: inline-end;
+}
+
+.flex__item1 {
+  box-shadow: 5px 3px 1px 1px hsl(0, 0%, 100%), 5px -5px 1px 1px hsl(180, 62%, 55%);  
+}
+
+.flex__item2 {
+    box-shadow: 5px 3px 1px 1px hsl(0, 0%, 100%), 5px -5px 1px 1px hsl(0, 78%, 62%);
+}
+
+.flex__item3 {
+    box-shadow: 5px 3px 1px 1px hsl(0, 0%, 100%), 5px -5px 1px 1px hsl(34, 97%, 64%);
+}
+
+.flex__item4 {
+    box-shadow: 5px 3px 1px 1px hsl(0, 0%, 100%), 5px -5px 1px 1px hsl(212, 86%, 64%);
+}
+
+@media (min-width: 600px) {
+    .flex__group ul {
+        display: flex;
+    }
 }
