@@ -158,10 +158,16 @@ body {
 @media (min-width: 600px) {
     .flex__group {
         display: flex;
-        flex-wrap: wrap;
+        align-items: center;
         justify-content: center;
-        /* gap: 30px; */
+        gap: 40px;
     } 
-    
-    
+
+    .middle .flex__item2,.middle .flex__item3 {
+      width: 20rem;
+    }
+
+    .flex__items {
+      width: 20rem;
+    }
 }
