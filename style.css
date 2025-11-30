@@ -26,6 +26,14 @@
 
 }
 
+    .attribution {
+       font-size: 11px; text-align: center; 
+      }
+      
+    .attribution a {
+       color: hsl(228, 45%, 44%); 
+    }
+
 
 /* 1. Use a more-intuitive box-sizing model */
 *, *::before, *::after {
@@ -76,6 +84,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 li {
     list-style-type: none;
+}
+
+*{
+  padding: 0;
 }
 
 body {
@@ -129,4 +141,14 @@ body {
     .flex__group ul {
         display: flex;
     }
+
+    .flex__group li {
+      background-color: red;
+        flex: 0 1 290px;
+    }
+    
+     .flex__group li p {
+      margin-bottom: 5rem;
+     }
+    
 }
